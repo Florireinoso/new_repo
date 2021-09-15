@@ -1,0 +1,34 @@
+.grid-contenedor {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    text-align: center;
+    margin: 50px 50px 50px;
+    grid-template-areas: 
+    "mainUno mainDos mainTres"
+    "mainCuatro mainCinco mainSeis";
+}
+
+.mainUno {
+    grid-area: mainUno;
+}
+
+.mainDos {
+    grid-area: mainDos;
+}
+
+.mainTres {
+    grid-area: mainTres;
+}
+.mainCuatro {
+    grid-area: mainCuatro;
+}
+
+.mainCinco {
+    grid-area: mainCinco;
+}
+
+.mainSeis {
+    grid-area: mainSeis;
+}
+
