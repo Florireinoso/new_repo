@@ -1,3 +1,4 @@
+// HOME
 @media only screen and (max-width:599px){
     .main__home {
         width: 320px;
@@ -42,6 +43,7 @@
 
 }
 
+// NOSOTROS
 @media only screen and (max-width:599px){
     .nosotrosH1 {
         width: 350px;
@@ -84,6 +86,7 @@
     }
 }
 
+// CONTACTO
 @media only screen and (max-width:599px){
     .Contenedor__contacto {
         width: 320px;
@@ -98,6 +101,7 @@
 
 }
 
+//PROGRAMAS
 @media only screen and (max-width:599px){
     
     .contenedor {
@@ -115,3 +119,18 @@
     }
 }
 
+//STUDIO
+@media only screen and (max-width:599px){
+
+    .studio{
+        h1{
+            display: none;
+        }
+    }
+
+    .contenedorStudio{
+        p{
+            display: none;
+        }
+    }
+}
