@@ -331,3 +331,18 @@
     background-color: #681a4a; }
   .infoS a:hover {
     font-size: 21px; }
+
+.Contenedor__contacto {
+  text-align: center;
+  font-family: "Quicksand", sans-serif; }
+  .Contenedor__contacto h1 {
+    background-color: #dd5873;
+    color: white;
+    font-weight: bold; }
+  .Contenedor__contacto h2 {
+    font-weight: bold;
+    color: crimson; }
+  .Contenedor__contacto p {
+    font-weight: bold;
+    color: #ff6262;
+    font-size: 18px; }

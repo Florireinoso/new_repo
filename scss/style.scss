@@ -298,6 +298,27 @@
     }
 }
 
+.Contenedor__contacto{
+    text-align: center;
+    font-family: $primary-font;
+
+    h1{
+        background-color: rgb(221, 88, 115);
+        color: white;
+        font-weight: bold;
+    }
+
+    h2{
+        font-weight: bold;
+        color: crimson;
+    }
+
+    p {
+        font-weight: bold;
+        color: rgb(255, 98, 98);
+        font-size: 18px;
+    }
+}
 
 
 
