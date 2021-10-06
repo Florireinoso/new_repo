@@ -1,23 +1,55 @@
 // HOME
 @media only screen and (max-width:599px){
-    .main__home {
+    
+    
+    .main{
+        display: flex;
+        flex-direction: column;
         width: 320px;
-        margin: 10px;
-        text-align: center;
+        height: 800px;
+        margin-left: 30px;
+
+
+        .main__home {
+            h1{
+                width: 300px;
+                margin: 10px;
+            }
+            p{
+                margin: 5px;
+            }
+        }
     }
+    
 
     .imagM {
         display: none;
     }
 
     .main__programa {
-        display: none;
+        display: flex;
+        flex-direction: column;
+        background-color: $primary-color;
+        width: 325px;
+        height: 350px;
+        text-align: center;
+        margin: 10px;
+        margin-left: 2px;
+        
+        .textoMain{
+            background-color: white;
+            width: 325px;
+            height: 320px;
+            margin: 0;
+            font-size: 15px;
+        }
+
     }
+
 
     .main__btn {
-        display: none;
+        margin-top: 60px;
     }
-
 }
 
 @media only screen and (min-width:600px) and (max-width:1024px){
@@ -25,20 +57,39 @@
         display: none;
     }
 
+
+    
+
     .main__programa {
-        
-            height: 440px;
             margin: 10px;
+            width: 750px;
     }
 
     .main__btn {
         margin: 50px;
+        margin-top: 250px;
     }
 }
 
 @media only screen and (min-width:1024px){
     .main__programa{
-        height: 350px;
+
+        h2{
+            margin-left: 250px;
+        }
+
+
+        .textoMain{
+            width: 1000px;
+            margin:5px;
+            margin-top: 20px;
+
+
+        }
+
+        .main__btn{
+            margin-top: 0px;
+        }
     }
 
 }
@@ -133,4 +184,14 @@
             display: none;
         }
     }
+}
+
+// ERROR
+
+@media only screen and (max-width:599px){
+    .containerError{
+        text-align: center;
+    }
+    
+
 }

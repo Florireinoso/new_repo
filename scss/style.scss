@@ -7,10 +7,21 @@
     padding: 0px;
 }
 
+// HOME
 .main__home {
     background-color: white;
     font-family: $primary-font;
     margin-top: 70px;
+
+    p {
+        color: $primary-color;
+        margin: 35px;
+        font-weight: bold;
+        letter-spacing: 3px;
+        text-align: center;
+        font-size: 18px;
+    }
+
     h1 {
         color: $secondary-color;
         text-align: center;
@@ -19,14 +30,7 @@
         margin: 20px;
         font-weight: bold;
     }
-    
-    .main__home--white {
-        color: $primary-color;
-        margin: 35px;
-        font-weight: bold;
-        letter-spacing: 3px;
-        text-align: center;
-    }
+
 }
 
 .main__home--img {
@@ -39,19 +43,21 @@
     text-align: center;
     background-color: $primary-color;
     width: 170px;
-    height: 40px;
+    height: 30px;
     border-radius: 4px;
     a{
         text-decoration: none;
         font-size: 20px;
         color:rgb(240, 178, 178) ;
         font-family: $primary-font;
+        
     }
 }
 
 .boton {
     display: flex;
     justify-content: center;
+
 }
 
 
@@ -60,28 +66,26 @@
     letter-spacing: 3px;
     text-align: center;
     margin-top: 100px;
-    display: flex;
-    justify-content: center;
+    color: $secondary-color;
+    height: 250px;
     
-
-    .main__programa--margin {
-        text-align: center;
-        font-weight: bold;
-        height: 60px;
-        margin: 20px;
-        color: $secondary-color;
+    h2{
+        font-weight: bolder;
+        font-size: 30px;
     }
 
+
     p {
-        font-size: 15px;
+        font-size: 22px;
         color: black;
         font-weight: bold;
         font-family: $primary-font;
-        margin: 25px;
-        width: 600px;
+        margin: 170px;
+        margin-top: 20px;
     }
 }
 
+// PROGRAMAS
 .contenedor__prog--linea {
     display: flex;
     flex-direction: row;
@@ -133,6 +137,8 @@
     text-align: center;
 }
 
+// CONTACTO
+
 .formContacto {
     background-image: linear-gradient(to bottom, rgb(223, 126, 185),rgb(104, 26, 74));
     font-weight: bold;
@@ -180,6 +186,8 @@
     color: white;
 }
 
+// NOSOTROS
+
 @for $i from 1 through 3{
     .Parraf#{$i}{
         font-size: $i*1rem;
@@ -205,6 +213,8 @@
         font-size:medium;
     }
 }
+
+// STUDIO
 
 .contenedorStudio {
     font-family: $primary-font;
@@ -298,6 +308,8 @@
     }
 }
 
+
+// CONTACTO
 .Contenedor__contacto{
     text-align: center;
     font-family: $primary-font;
@@ -319,6 +331,49 @@
         font-size: 18px;
     }
 }
+
+// ERROR
+
+.errorB{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: $primary-font;
+
+    .containerError{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        img{
+            width: 50%;
+        }
+
+        h1{
+            color: $primary-color;
+            font-size: 20px;
+            padding: 20px;
+        }
+
+        a{
+            padding: 13px 30px;
+            border-radius: 15px;
+            border: none;
+            background-color: $secondary-color;
+            color: rgb(245, 231, 244);
+            text-decoration: none;
+            font-weight: bold;
+        }
+    }
+
+    
+}
+
+
+
 
 
 
