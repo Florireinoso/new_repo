@@ -45,6 +45,7 @@
     width: 170px;
     height: 30px;
     border-radius: 4px;
+    margin-top: 20px;
     a{
         text-decoration: none;
         font-size: 20px;
@@ -66,24 +67,26 @@
     letter-spacing: 3px;
     text-align: center;
     margin-top: 100px;
-    color: $secondary-color;
-    height: 250px;
-    
+
     h2{
-        font-weight: bolder;
-        font-size: 30px;
+        font-family: $primary-font;
+        font-weight: bold;
+        font-size: 35px;
+        color: rgb(134, 59, 72);
     }
 
 
-    p {
+    .textoMain {
         font-size: 22px;
         color: black;
         font-weight: bold;
         font-family: $primary-font;
-        margin: 170px;
-        margin-top: 20px;
+        width: auto;
+        margin: 10px;
+        }
+
     }
-}
+
 
 // PROGRAMAS
 .contenedor__prog--linea {
@@ -137,23 +140,33 @@
     text-align: center;
 }
 
-// CONTACTO
+// FORMULARIO CONTACTO
 
-.formContacto {
-    background-image: linear-gradient(to bottom, rgb(223, 126, 185),rgb(104, 26, 74));
-    font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding-top: 20px;
-    padding-left: 15px;
-    padding-bottom: 20px;
-    margin: 20px;
-    margin-left: 350px;
-    width: 400px;
-    width: 45vw;
-    border-style: solid;
-    border-color: rgb(33, 47, 68);
-    border-radius: 4px;
+
+.formulario{
+    width: 350px;
+    margin: auto;
+    background-image: linear-gradient(to bottom, rgba(89, 53, 105, 0.822), rgb(104, 26, 74));
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
     text-align: center;
+    font-family: $primary-font;
+    font-weight: bold;
+    color: white;
+    
+}
+
+.formContacto{
+    .control ,textarea{
+        width: 230px;
+        margin-bottom: 15px;
+    }
+
+    textarea{
+        min-height: 100px;
+        max-height: 100px;
+}
 }
 
 .control {
@@ -165,14 +178,14 @@
 }
 
 .botForm {
-    width: 12%;
-    height: 25px;
+    width: 80px;
+    margin: 30px;
+    margin-top: 15px;
     font-size: 15px;
-    background-color: rgb(246, 248, 248);
+    background-color: #31384A;
     border-radius: 4px;
     border: none;
-    text-transform: uppercase;
-    color: rgb(13, 13, 41);
+    color: white;
 }
 
 .botForm:hover {
@@ -182,8 +195,8 @@
 
 .botForm:active {
     transition: cubic-bezier(0.215, 0.610, 0.355, 1) 0.2s;
-    background-color: rgb(13, 13, 41);
-    color: white;
+    background-color: white;
+    color: #31384A;
 }
 
 // NOSOTROS
@@ -198,10 +211,14 @@
     }
 }
 
+.bodyNos{
+    background-color: rgb(31, 29, 37);
+}
 .nosotrosH1 {
     text-align: center;
     background-color: $primary-color;
     color: white;
+    font-family: $primary-font;
 }
 
 .parrafo {
@@ -262,54 +279,68 @@
     }
 }
 
+.mainStudio{
+    height: 700px;
+    margin: 10px;
+}
+
 .studio {
-    margin: 20px;
-    
+    margin: 30px;
+    font-family: $primary-font;
+    text-align: center;
+    background-color: rgb(41, 102, 79);
+    color: white;
+    height: auto;
 
     h1 {
-        text-align: center;
         font-weight: bolder;
-        color:rgb(255, 71, 126);
-        background-color: white;
-        width: 700px;
+        background-color: rgb(36, 77, 61);
+        width: 60vw;
+        height: auto;
     }
 
     p {
         margin-top: 25px;
         color: $primary-color;
         font-size: 21px;
+        color: white;
+        width: auto;
     }
 }
 
 .bodyS {
-    background-color: pink;
+    background-color: white;
 }
 
-.infoS {
+.redesConteiner{
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    font-size: 20px;
+    margin: 30px;
+    color: white;
+    height: 38px;
+    border-radius: 4px;
+    margin-top: 10px;
+    font-size: 25px;
+    font-family: $primary-font;
 
-    a {
-        color: rgb(255, 98, 98);
-        text-decoration: none;
-        font-weight: bold;
-        font-family: $primary-font;
-        background-color: white;
+    .redes{
+        margin-top: 25px;
+    }
+
+    p {
+        background-color:rgb(36, 77, 61);
         border-radius: 4px;
-        width: 180px;
-    }
-
-    a:active {
-        background-color: rgb(104, 26, 74);
-    }
-
-    a:hover {
-        font-size: 21px;
+        width: auto;
     }
 }
+
+
 
 
 // CONTACTO
+
+
 .Contenedor__contacto{
     text-align: center;
     font-family: $primary-font;

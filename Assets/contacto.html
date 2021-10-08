@@ -39,12 +39,7 @@
         </div>
     </nav>
     <header>
-        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
-            <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Contacto</li>
-            </ol>
-        </nav>
+        
         <div class="Contenedor__contacto">
             <div class="Contenedor__contacto">
                 <h1>Contacto</h1>
@@ -58,37 +53,26 @@
         </div>
     </header>
 
-    <div class="btn-whatsapp">
-        <a href="https://api.whatsapp.com/send?phone=5199999999" target="_blank">
-        <img src="http://s2.accesoperu.com/logos/btn_whatsapp.png" alt="">
-        </a>
-        </div>
-
-    <main class="formulario">
+    <main>
+        <div class="formulario">
         <form class="formContacto animate__animated animate__pulse">
         
             <h1 class="h1F">Contacto</h1>
             
             <input type="text" class="control" placeholder="Nombre y Apellido" >
-            <br>
-            <br>
     
             <input type="email" class="control" placeholder="E-mail" >
-            <br>
-            <br>
     
             <input type="number" class="control" placeholder="Telefono">
-            <br>
-            <br>
     
-            <input class="control" rows="4" cols="50" placeholder="Mensaje">
-            <br>
-            <br>
+            <textarea name="mensaje" placeholder="Mensaje"></textarea>
+            
             
                 
-                <input class="botForm" type="submit" value="Enviar">
-                <input class="botForm" type="reset" value="Borrar">
+            <input class="botForm" type="submit" value="Enviar">
+            <input class="botForm" type="reset" value="Borrar">
         </form>
+    </div>
 
     </main>
     <footer class="py-3 my-4">

@@ -6,49 +6,21 @@
         display: flex;
         flex-direction: column;
         width: 320px;
-        height: 800px;
+        height: auto;
         margin-left: 30px;
+    }
 
-
-        .main__home {
-            h1{
-                width: 300px;
-                margin: 10px;
-            }
-            p{
-                margin: 5px;
-            }
+    .main__home {
+        h1{
+            width: 300px;
+            margin: 10px;
+        }
+        p{
+            margin: 5px;
         }
     }
-    
-
     .imagM {
         display: none;
-    }
-
-    .main__programa {
-        display: flex;
-        flex-direction: column;
-        background-color: $primary-color;
-        width: 325px;
-        height: 350px;
-        text-align: center;
-        margin: 10px;
-        margin-left: 2px;
-        
-        .textoMain{
-            background-color: white;
-            width: 325px;
-            height: 320px;
-            margin: 0;
-            font-size: 15px;
-        }
-
-    }
-
-
-    .main__btn {
-        margin-top: 60px;
     }
 }
 
@@ -57,41 +29,19 @@
         display: none;
     }
 
-
-    
-
     .main__programa {
-            margin: 10px;
-            width: 750px;
+        margin: 10px;
+
+            .textoMain{
+                background-color: rgb(241, 211, 216);
+
+            }
     }
 
     .main__btn {
         margin: 50px;
         margin-top: 250px;
     }
-}
-
-@media only screen and (min-width:1024px){
-    .main__programa{
-
-        h2{
-            margin-left: 250px;
-        }
-
-
-        .textoMain{
-            width: 1000px;
-            margin:5px;
-            margin-top: 20px;
-
-
-        }
-
-        .main__btn{
-            margin-top: 0px;
-        }
-    }
-
 }
 
 // NOSOTROS
@@ -113,7 +63,25 @@
     }
 
     .grid-contenedor {
-        display: none;
+        .mainUno{
+            display: none;
+        }
+
+        .mainCinco{
+            display: none;
+        }
+
+        .mainSeis{
+            display: none;
+        }
+
+        .mainCuatro{
+            display: none;
+        }
+
+        .mainTres{
+            display: none;
+        }
     }
 
     .about__div {
@@ -140,13 +108,14 @@
 // CONTACTO
 @media only screen and (max-width:599px){
     .Contenedor__contacto {
-        width: 320px;
+        width: auto;
+        margin: 8px;
     }
 }
 
 @media only screen and (min-width:600px) and (max-width:1024px){
     .Contenedor__contacto {
-        width: 500px;
+        width: auto;
         margin: 12px;
     }
 
@@ -154,13 +123,31 @@
 
 //PROGRAMAS
 @media only screen and (max-width:599px){
-    
-    .contenedor {
-        h1 {
-            display: none;
+    .contenedor{
+
+        height: 2000px;
+
+
+        .contenedor__prog--linea{
+            display: inline-block;
+
+            .titulo{
+                height: 100px;
+            }
+
+            p{
+                text-align: center;
+            }
+        }
+
+        .contenedor__prog--row{
+            display: inline-block;
+            margin-left: 45px;
+            font-family: $primary-font;
+            font-weight: bolder;
         }
     }
-}
+
 
 @media only screen and (min-width:1024px){
     .contenedor {
@@ -173,25 +160,24 @@
 //STUDIO
 @media only screen and (max-width:599px){
 
-    .studio{
-        h1{
-            display: none;
-        }
-    }
-
     .contenedorStudio{
         p{
             display: none;
         }
+    }
+
+    .redesConteiner{
+        width: auto;
+        height: 200px;
     }
 }
 
 // ERROR
 
 @media only screen and (max-width:599px){
+
     .containerError{
         text-align: center;
     }
-    
-
+}
 }
