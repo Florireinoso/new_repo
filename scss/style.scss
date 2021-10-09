@@ -231,6 +231,14 @@
     }
 }
 
+.fontNos{
+    font-family: $primary-font;
+
+    .Parraf1{
+        font-weight: bolder;
+    }
+}
+
 // STUDIO
 
 .contenedorStudio {
@@ -245,8 +253,8 @@
     text-align: center;
 
     p {
-        margin-left: 25px;
-        color: teal;
+        margin-left: 20px;
+        color: black;
         font-size: 18px;
     }
 
@@ -266,14 +274,14 @@
 
     p {
         margin-right: 25px;
-        color: rgb(58, 20, 68);
-        font-size: 18px;
+        color: black;
+        font-size: 20px;
     }
 
     h3 {
         background-color: $secondary-color;
         color: white;
-        width: 400px;
+        width: 470px;
         height: 40px;
         border-radius: 4px;
     }
@@ -344,6 +352,7 @@
 .Contenedor__contacto{
     text-align: center;
     font-family: $primary-font;
+    margin: 10px;
 
     h1{
         background-color: rgb(221, 88, 115);
@@ -363,6 +372,11 @@
     }
 }
 
+.imagenCont{
+    text-align: center;
+    margin: 20px;
+}
+
 // ERROR
 
 .errorB{
@@ -370,7 +384,6 @@
     margin: 0;
     padding: 0;
     height: 100vh;
-    font-family: $primary-font;
 
     .containerError{
         display: flex;
@@ -379,16 +392,15 @@
         align-items: center;
         justify-content: center;
         height: 100vh;
+        font-family: $primary-font;
         img{
             width: 50%;
         }
 
         h1{
             color: $primary-color;
-            font-size: 20px;
-            padding: 20px;
+            font-size: 22px;
         }
-
         a{
             padding: 13px 30px;
             border-radius: 15px;

@@ -298,6 +298,11 @@
 .parrafo {
   font-size: large; }
 
+.fontNos {
+  font-family: "Quicksand", sans-serif; }
+  .fontNos .Parraf1 {
+    font-weight: bolder; }
+
 .contenedorStudio {
   font-family: "Quicksand", sans-serif;
   font-weight: bold; }
@@ -308,8 +313,8 @@
   margin: 100px;
   text-align: center; }
   .contStudio1 p {
-    margin-left: 25px;
-    color: teal;
+    margin-left: 20px;
+    color: black;
     font-size: 18px; }
   .contStudio1 h2 {
     color: white;
@@ -324,12 +329,12 @@
   text-align: center; }
   .contStudio2 p {
     margin-right: 25px;
-    color: #3a1444;
-    font-size: 18px; }
+    color: black;
+    font-size: 20px; }
   .contStudio2 h3 {
     background-color: #ad7981;
     color: white;
-    width: 400px;
+    width: 470px;
     height: 40px;
     border-radius: 4px; }
 
@@ -379,7 +384,8 @@
 
 .Contenedor__contacto {
   text-align: center;
-  font-family: "Quicksand", sans-serif; }
+  font-family: "Quicksand", sans-serif;
+  margin: 10px; }
   .Contenedor__contacto h1 {
     background-color: #dd5873;
     color: white;
@@ -392,25 +398,28 @@
     color: #ff6262;
     font-size: 18px; }
 
+.imagenCont {
+  text-align: center;
+  margin: 20px; }
+
 .errorB {
   background-color: white;
   margin: 0;
   padding: 0;
-  height: 100vh;
-  font-family: "Quicksand", sans-serif; }
+  height: 100vh; }
   .errorB .containerError {
     display: flex;
     flex-direction: column;
     gap: 30px;
     align-items: center;
     justify-content: center;
-    height: 100vh; }
+    height: 100vh;
+    font-family: "Quicksand", sans-serif; }
     .errorB .containerError img {
       width: 50%; }
     .errorB .containerError h1 {
       color: darkslategray;
-      font-size: 20px;
-      padding: 20px; }
+      font-size: 22px; }
     .errorB .containerError a {
       padding: 13px 30px;
       border-radius: 15px;
