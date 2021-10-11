@@ -9,14 +9,14 @@
 
 // HOME
 .main__home {
-    background-color: white;
+    
     font-family: $primary-font;
     margin-top: 70px;
 
     p {
         color: $primary-color;
         margin: 35px;
-        font-weight: bold;
+        font-weight: bolder;
         letter-spacing: 3px;
         text-align: center;
         font-size: 18px;
@@ -72,7 +72,7 @@
         font-family: $primary-font;
         font-weight: bold;
         font-size: 35px;
-        color: rgb(134, 59, 72);
+        color: $secondary-color;
     }
 
 
@@ -85,6 +85,10 @@
         margin: 10px;
         }
 
+    }
+
+    .bodyDos{
+        background-image: url(../Resources/light-veneer.png);
     }
 
 
@@ -117,6 +121,11 @@
     justify-content: space-around;
     margin-top: 30px;
     text-align: center;
+}
+
+.card-body{
+    background-color: $primary-color;
+    color: white;
 }
 
 .main__prog {
@@ -212,13 +221,14 @@
 }
 
 .bodyNos{
-    background-color: rgb(31, 29, 37);
+    background-image: url(../Resources/dark_wood.png);
 }
 .nosotrosH1 {
     text-align: center;
     background-color: $primary-color;
     color: white;
     font-family: $primary-font;
+
 }
 
 .parrafo {
@@ -296,13 +306,12 @@
     margin: 30px;
     font-family: $primary-font;
     text-align: center;
-    background-color: rgb(41, 102, 79);
     color: white;
     height: auto;
 
     h1 {
         font-weight: bolder;
-        background-color: rgb(36, 77, 61);
+        background-color:rgb(41, 102, 79);;
         width: 60vw;
         height: auto;
     }
@@ -311,13 +320,14 @@
         margin-top: 25px;
         color: $primary-color;
         font-size: 21px;
-        color: white;
+        color: $primary-color;
+        font-weight: bold;
         width: auto;
     }
 }
 
 .bodyS {
-    background-color: white;
+    background-image: url(../Resources/full-bloom.png);
 }
 
 .redesConteiner{
@@ -334,6 +344,8 @@
 
     .redes{
         margin-top: 25px;
+        display: flex;
+        justify-content: space-around;
     }
 
     p {
@@ -372,9 +384,8 @@
     }
 }
 
-.imagenCont{
-    text-align: center;
-    margin: 20px;
+.contactoB{
+    background-image: url(../Resources/email-pattern.png);
 }
 
 // ERROR
