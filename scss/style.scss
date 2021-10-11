@@ -87,12 +87,16 @@
 
     }
 
-    .bodyDos{
+    .bodyUno{
         background-image: url(../Resources/light-veneer.png);
     }
 
 
 // PROGRAMAS
+
+.bodyDos{
+    background-image: url(../Resources/old_map.png);
+}
 .contenedor__prog--linea {
     display: flex;
     flex-direction: row;

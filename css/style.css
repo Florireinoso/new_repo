@@ -181,8 +181,11 @@
     width: auto;
     margin: 10px; }
 
-.bodyDos {
+.bodyUno {
   background-image: url(../Resources/light-veneer.png); }
+
+.bodyDos {
+  background-image: url(../Resources/old_map.png); }
 
 .contenedor__prog--linea {
   display: flex;
